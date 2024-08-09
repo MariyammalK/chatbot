@@ -1,0 +1,66 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - good evening
+    - hey there
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - have a nice day
+    - see you around
+    - bye bye
+
+- intent: affirm
+  examples: |
+    - yes
+    - indeed
+    - that's right
+    - exactly
+    - right
+
+- intent: deny
+  examples: |
+    - no
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+
+- intent: mood_great
+  examples: |
+    - I'm feeling great
+    - I feel amazing
+    - I am very happy
+    - I am good
+    - I feel great
+
+- intent: mood_unhappy
+  examples: |
+    - I'm sad
+    - I feel down
+    - I am unhappy
+    - I'm feeling bad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - are you real?
+    - am I talking to a bot?
+
+- intent: ask_starting_salary
+  examples: |
+    - What is the starting salary?
+    - How much do I get paid initially?
+    - What is the initial salary?
+    - How much is the starting wage?
+    - Can you tell me about the starting salary?
